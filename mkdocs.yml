@@ -1,0 +1,69 @@
+site_name: Tutorials for mastering Markdown and Git basics
+
+theme:
+  name: "material"
+  # favicon: hurriloss_favicon.svg
+  icon:
+    logo: material/menu_book
+#  icon:
+#    logo:
+#    favicon: material/weather-hurricane-outline
+  features:
+    - toc.follow # table of content follows the page scroll
+    - navigation.top # navigation to the top of the page
+    - navigation.footer
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - search.highlight
+    - search.suggest
+
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      scheme: default
+      toggle:
+        icon: material/lightbulb-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to system preference
+
+nav:
+  - Home: index.md
+  - Markdown: markdown.md
+  - Git: git.md
+
+
+watch:
+  - docs
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: "#"
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+
+plugins:
+  - search
+  - autorefs
+  - offline
+  
