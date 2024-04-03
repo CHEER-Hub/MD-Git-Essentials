@@ -15,6 +15,8 @@ theme:
     - content.code.select
     - search.highlight
     - search.suggest
+    - content.action.edit
+    - content.action.view
 
   palette:
 
@@ -70,3 +72,31 @@ plugins:
   - search
   - autorefs
   - offline
+  - git-committers:
+      repository: CHEER-Hub/MD-Git-Essentials
+      branch: main
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+# Github configurrations
+repo_url: https://github.com/CHEER-Hub/MD-Git-Essentials
+repo_name: CHEER-Hub/MD-Git-Essentials
+edit_uri: edit/main/docs/
+
+
+# extra:
+#   analytics: 
+#     feedback:
+#       title: Was this page helpful?
+#       ratings:
+#         - icon: material/emoticon-happy-outline
+#           name: This page was helpful
+#           data: 1
+#           note: >-
+#             Thanks for your feedback!
+#         - icon: material/emoticon-sad-outline
+#           name: This page could be improved
+#           data: 0
+#           note: >- 
+#             Thanks for your feedback! Help us improve this page by
+#             using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
