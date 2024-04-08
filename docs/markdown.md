@@ -181,12 +181,12 @@ Images are similar to links, but they include a leading exclamation point (`!`),
     === "Code"
 
         ```md linenums="1"
-        ![Yosemite National Park](https://source.unsplash.com/M6XC789HLe8)
+        ![Picture of a titmouse](https://source.unsplash.com/Zepatsha9BA)
         ```
 
     === "Preview"
         
-        ![Yosemite National Park](https://source.unsplash.com/M6XC789HLe8)
+        ![Picture of a titmouse](https://source.unsplash.com/Zepatsha9BA)
 
 
 ## Code
