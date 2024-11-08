@@ -181,12 +181,12 @@ Images are similar to links, but they include a leading exclamation point (`!`),
     === "Code"
 
         ```md linenums="1"
-        ![Picture of a titmouse](https://source.unsplash.com/Zepatsha9BA)
+        ![Picture of a titmouse](gabriel-miklos-Zepatsha9BA-unsplash.jpg)
         ```
 
     === "Preview"
         
-        ![Picture of a titmouse](https://source.unsplash.com/Zepatsha9BA)
+        ![Picture of a titmouse](gabriel-miklos-Zepatsha9BA-unsplash.jpg)
 
 
 ## Code
