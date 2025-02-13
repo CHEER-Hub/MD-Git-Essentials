@@ -1,4 +1,4 @@
-# Understanding Basic Git and GitHub Terminology
+# Introduction to Git and GitHub
 
 Understanding Git and GitHub is essential for efficient version control and collaboration in software development. Before setting up and using GitHub within Visual Studio Code (VS Code), it is important to become familiar with fundamental concepts.
 
