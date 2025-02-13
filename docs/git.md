@@ -1,6 +1,10 @@
 # Understanding Basic Git and GitHub Terminology
 
-Before diving into setting up and using GitHub within Visual Studio Code (VS Code), it's essential to familiarize yourself with some fundamental terms:
+Understanding Git and GitHub is essential for efficient version control and collaboration in software development. Before setting up and using GitHub within Visual Studio Code (VS Code), it is important to become familiar with fundamental concepts.
+
+## Terminologies
+
+Below are key terms that will help you grasp the basics of Git and GitHub:
 
 - **Repository (Repo)**: A storage space where your project's files and their revision history are kept. Think of it as a project's folder.
 
@@ -33,7 +37,7 @@ For a more comprehensive glossary, you can refer to the [GitHub Glossary](https:
 
 ---
 
-# Setting up and Using Git
+## Setting up and Using Git
 
 The video below provides a comprehensive guide on setting up and using GitHub within Visual Studio Code (VS Code). It covers essential topics such as initializing a repository, staging and committing changes, branching, merging, and pushing code to GitHub. By following this tutorial, you'll gain a solid understanding of how to integrate GitHub into your VS Code workflow, enhancing your development efficiency.
 
@@ -41,7 +45,7 @@ The video below provides a comprehensive guide on setting up and using GitHub wi
   <iframe width="560" height="315" src="https://www.youtube.com/embed/i_23KUAEtUM?si=-lk4MFsHuvf_s9my" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-## Other Useful Resources
+### Other Useful Resources
 
 For further learning, consider exploring these resources:
 
